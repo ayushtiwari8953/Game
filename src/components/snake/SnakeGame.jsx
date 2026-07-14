@@ -172,13 +172,14 @@ export default function SnakeGame() {
     <div className="flex min-h-screen w-full flex-col items-center gap-4 bg-white bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.12),transparent_60%)] px-4 py-6 text-slate-900">
       <header className="w-full max-w-[520px] text-center">
         <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-          <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-sky-500 bg-clip-text text-transparent">
+          {/* <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-sky-500 bg-clip-text text-transparent">
             Snake
-          </span>{" "}
-          <span className="text-slate-800">Game</span>
+          </span> */}
+          {" "}
+          <span className="text-slate-800"> Snake Game</span>
         </h1>
         <p className="mt-1 text-xs text-slate-500">
-          Arrow keys / WASD · Space to pause · Swipe on mobile
+          {/* Arrow keys / WASD · Space to pause · Swipe on mobile */}
         </p>
       </header>
 
@@ -209,7 +210,7 @@ export default function SnakeGame() {
 
       {!hasStarted && !isGameOver && (
         <p className="text-sm text-slate-500 animate-pulse">
-          Press an arrow key or swipe to start
+          {/* Press an arrow key or swipe to start */}
         </p>
       )}
 
